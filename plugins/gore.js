@@ -21,7 +21,7 @@ Asena.addCommand({ pattern: 'gore ?(.*)', fromMe: false, desc: IGI_DESC}, async 
     await message.sendMessage(infoMessage("Downloading your video..."))
 
     await axios
-      .get(`https://caliphapi.com/api/randomgore?apikey=APIKEY`)
+      .get(`https://caliphapi.com/api/randomgore?apikey=d5zS36Tp`)
       .then(async (response) => {
         const {
           link,
